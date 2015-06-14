@@ -27,7 +27,7 @@ print response.geturl()
 #Uncomment following two lines to check if you are logged in
 #logincheck = response.read()
 #print logincheck
-print "++++++ LOGGED IN ++++++"
+print "++++++ LOGGED IN +++++"
 response = br.open(PRODUCT)
 print response.geturl()
 #Forms are arranged as a list data-type. You can select them using index number.
